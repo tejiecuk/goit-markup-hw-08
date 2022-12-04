@@ -1,0 +1,112 @@
+.team {
+  @extend %section !optional;
+    background: var(--filter-color);
+    text-align: center;
+  }
+  
+  .social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+  
+    width: 44px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 50%;
+  
+    transition: background-color var(--trns-effect), color var(--trns-effect);
+    
+    &:hover,
+    &:focus {
+      color: var(--primary-bgr);
+      background-color: var(--logo-color);
+    }
+  }
+  
+  
+  .social-icon {
+    fill: currentColor;
+  }
+  
+  .team-person {
+    display: block;
+    @media screen and (min-width:768px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+  }
+  }
+  
+  
+  .team-list {
+    margin-bottom: 30px;
+
+    background-color: var(--primary-bgr);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  
+    @media screen and (min-width:768px) {
+      margin-bottom: 0;
+    }
+  }
+
+  
+  .team-title {
+    margin-bottom: 30px;
+  
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+    @media screen and (min-width:1200px) {
+      font-size: 36px;
+      margin-bottom: 50px;
+      
+    }
+  }
+  
+  .team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+    margin-bottom: 10px;
+  }
+  
+  .our-team {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .team-position {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text);
+    margin-bottom: 16px;
+  }
+  .avatar{
+    @media screen and (min-width:768px) {
+      width: 354px;
+     
+  }
+
+  @media screen and (min-width:1200px) {
+      width: 270px;
+  }   
+}
+  

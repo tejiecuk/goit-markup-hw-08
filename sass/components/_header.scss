@@ -1,0 +1,82 @@
+.header {
+    border-bottom: 1px solid #ececec;
+  }
+  
+  
+  
+  .flex-nav {
+    display: flex;
+  }
+  
+  .mail {
+    display: flex;
+  }
+  
+  .link-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    
+  
+    color: var(--secondary-text);
+  
+    transition: color var(--trns-effect);
+
+    &:hover,
+    &:focus {
+      color: var(--logo-color);
+    }
+    @media screen and (min-width: 768px){
+      justify-content: left;
+      font-size: 12px;
+    }
+
+    @media screen and (min-width: 1200px){
+      display: flex;
+      margin-left: auto;
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+  }
+  .mail-title {
+    display: block;
+  }
+  
+  .mail-icon {
+  
+    vertical-align: middle;
+    margin-right: 10px;
+    fill: currentColor;
+  
+  }
+  
+  .phone-icon {
+    vertical-align: middle;
+    margin-right: 10px;
+    fill: currentColor;
+  }
+  
+  .site-cont {
+    display: none;
+    @media screen and (min-width: 768px){
+      display: block;
+      margin: 0;
+      margin-left: auto;
+    }
+    @media screen and (min-width: 1200px){
+      display: flex;
+      margin-left: auto;
+    }
+    
+  }
+  @media screen and (min-width: 1200px){
+    .site-cont .item+.item {
+      margin-left: 50px;
+    }
+  }
+  

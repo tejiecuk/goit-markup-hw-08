@@ -1,0 +1,22 @@
+:root {
+    --color-text: #212121;
+    --secondary-text: #757575;
+    --logo-color: #2196f3;
+    --primary-bgr: #ffffff;
+    --secondary-bgr: #2f303a;
+    --boxes-color: #eeeeee;
+    --filter-color: #f5f4fa;
+    --hero-button: #188ce8;
+  
+    /* Font */
+    --logo-font: "Raleway", sans-serif;
+    --family-font: "Roboto", sans-serif;
+  
+    /* Animation */
+    --trns-effect: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  //Breakpoints
+
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1200px;

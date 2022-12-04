@@ -1,0 +1,30 @@
+.about {
+    display: none;
+    text-align: center;
+    @media (min-width: 1200px) {
+      
+      display: block;
+    }
+  }
+  
+  .about__list {
+    display: flex;
+
+    & .about__item+.about__item {
+      margin-left: 30px;
+    }
+  }
+  
+  
+  .main__about {
+    padding-top: 0;
+  }
+  
+  .about__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+    margin-bottom: 50px;
+  }
