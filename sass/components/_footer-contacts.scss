@@ -1,5 +1,7 @@
 .footer-address {
-
+  @media screen and (max-width: 767px){
+    margin-bottom: 60px;
+  }
   @media screen and (min-width: 1200px) {
     margin-right: 70px;
   }
@@ -21,7 +23,7 @@
   
 .logo {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     text-decoration: none;
   }
   
@@ -31,10 +33,10 @@
   
 .address {
     font-style: normal;
-    margin-bottom: 60px;
-    @media screen and (min-width: 1200px) {
-      margin-bottom: 0px;
-    }
+    // margin-bottom: 60px;
+    // @media screen and (min-width: 1200px) {
+    //   margin-bottom: 0px;
+    // }
   }
   
 .address-title {

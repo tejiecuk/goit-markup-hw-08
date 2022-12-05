@@ -44,7 +44,9 @@
   
   
   .future__item {
+    @media screen and (max-width: 767px){
 
+    }
     @media screen and (min-width: 768px) {
       width: 354px;
     }
@@ -53,7 +55,11 @@
       width: 270px;
     }
   }
-  
+  .future__item:not(:last-child) {
+    @media screen and (max-width: 767px){
+      margin-bottom: 30px;
+    }
+  }
   
   .futures__label {
     text-align: center;
@@ -64,7 +70,7 @@
     text-transform: uppercase;
     margin-bottom: 10px;
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 768px) {
       text-align: left;
     }
   }
