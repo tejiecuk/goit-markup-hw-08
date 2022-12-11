@@ -61,7 +61,6 @@
     padding-right: 62px;
     padding-bottom: 10px;
     border: 1px transparent;
-    margin-left: 12px;
    
   
     font-family: inherit;
@@ -80,6 +79,9 @@
     &:hover,
     &:focus {
       background-color: var(--hero-button);
+    }
+    @media screen and (min-width: 1200px){
+      margin-left: 12px;
     }
   }
   .sub-icon {

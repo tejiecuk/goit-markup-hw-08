@@ -14,8 +14,8 @@
   
     transition: transform var(--trns-effect);
     
-    .list-object:hover &, 
-    .list-object:focus & {
+    .list-link:hover &, 
+    .list-link:focus & {
       transform: translateY(0);
     }
   }

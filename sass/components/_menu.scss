@@ -128,9 +128,16 @@
 
     letter-spacing: 0.02em;
   }
+  @media screen and (max-width:449px){
+    .mobile-socials {
+      gap: 10px;
+    }
+  }
+  
   @media screen and (max-width:767px) {
     .mobile-socials {
         display: flex;
+        flex-wrap: wrap;
         text-align: left;
         
     }
